@@ -1,0 +1,73 @@
+// challange - 1
+
+// root.render(
+//   <ul>
+//     <li>cars</li>
+//     <li>bikes</li>
+//   </ul>
+// );
+
+// Challange - 2
+
+// function MainComponent() {
+//   return (
+//     <h1>react is used in frontend by the web developers react is so amazing</h1>
+//   );
+// }
+
+// root.render(
+//   <div className="">
+//     <MainComponent />
+//   </div>
+// );
+
+// challange-3
+
+// const headElement = document.createElement(h1)
+// headElement.textContent = "Welcome to react"
+// headElement.className = "header"
+
+// const divElement = document.getElementById("root")
+// divElement.appendChild(headElement)
+// console.log(document.getElementById("root"));
+
+// challange 4
+
+/* root.render(
+    <RenderComp/>
+)
+
+function RenderComp() {
+    return (
+        
+        <div>
+        <random_root/>
+        <img src="/src/assets/react.svg" alt="" />
+        <div>
+            <h1>Fun facts about react</h1>
+            <ul>
+                <li>Was first released in 2013</li>
+                <li>Was originally created by Jorden Walke</li>
+                <li>Has well over 100k stars on github</li>
+                <li>Is maintained by meta</li>
+            </ul>
+        </div>
+        </div>
+    )
+}
+ */
+
+// Challange - 5 part 1
+
+/* function random() {
+return (    <div>
+        <h1>This is the random root component</h1>
+        <ul>
+            <li>React is very beginer friendly</li>
+            <li>React looks cool to code </li>
+            <li>Its strength is in its speed which is truly exceptional</li>
+            
+        </ul>
+    </div>)
+}
+ */
