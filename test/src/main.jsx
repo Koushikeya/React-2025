@@ -1,7 +1,5 @@
 import { createRoot } from "react-dom/client";
-import HeaderComp from "./Header.jsx"
-import MainContent  from "./MainContent.jsx"
-import Footer from "./Footer.jsx";
+import App from "./App";
 
 const root = createRoot(document.getElementById("root"));
 
@@ -9,14 +7,17 @@ const root = createRoot(document.getElementById("root"));
 
 // destructuring the part - 2
 
-function Random() {
-  return (
-    <div>
-      <HeaderComp />
-      <MainContent />
-      <Footer />
-    </div>
-  );
-}
+// function Random() {
+//   return (
+//     <div>
+//       <HeaderComp />
+//       <MainContent />
+//       <Footer />
+//     </div>
+//   );
+// }
 
-root.render(<Random />);
+// root.render(<Random />);
+
+root.render(<App />)
+
